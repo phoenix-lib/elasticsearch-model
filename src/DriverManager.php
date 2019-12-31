@@ -2,6 +2,7 @@
 
 namespace Datashaman\Elasticsearch\Model;
 
+use Illuminate\Container\Container;
 use Illuminate\Support\Manager;
 
 class DriverManager extends Manager
@@ -10,7 +11,7 @@ class DriverManager extends Manager
 
     public function __construct($class)
     {
-        parent::__construct(null);
+        parent::__construct(Container::getInstance());
         $this->class = $class;
     }
 

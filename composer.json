@@ -19,7 +19,8 @@
     "require": {
         "php": ">=7.0",
         "elasticsearch/elasticsearch": ">=2",
-        "illuminate/support": ">=5.4"
+        "illuminate/support": ">=5.4",
+        "laravel/helpers": "^1.1"
     },
     "require-dev": {
         "mockery/mockery": "*",
