@@ -18,7 +18,7 @@ The idea is to stay fairly faithful to the *Ruby on Rails* implementation, but h
 
 Install the package using composer:
 
-    composer require datashaman/elasticsearch-model
+    composer require phoenix-lib/elasticsearch-model
 
 Configure the service provider in `config/app.php`:
 

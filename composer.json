@@ -1,5 +1,5 @@
 {
-    "name": "datashaman/elasticsearch-model",
+    "name": "phoenix-lib/elasticsearch-model",
     "description": "Laravel/Eloquent integration with Elasticsearch",
     "keywords": [
         "elasticsearch",
