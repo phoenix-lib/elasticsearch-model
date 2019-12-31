@@ -96,7 +96,8 @@ class Response implements ArrayAccess, Countable
             $from = $this->from();
             $currentPage = (! is_null($from) && ! empty($perPage)) ? $from / $perPage + 1 : null;
 
-            $this->attributes->put('results', new LengthAwarePaginator($results, $this->total()->{"value"}, $perPage, $currentPage));
+            $this->attributes->put('results', new LengthAwarePaginator($results, $this->total()["value"], $perPage,
+        $currentPage));
         }
 
         return $this->attributes->get('results');
